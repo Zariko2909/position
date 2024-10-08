@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    width: 1145px;
+    height: 39px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 43px; 
+    position: relative;
+    top: 43px;
+}
+.logo{
+    width: 86px;
+    height: 39px;
+}
+nav ul{
+    display: flex;
+    gap: 55px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    width: 55px;
+    height: 19px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: rgba(0, 0, 0, 1);
+    transition: color 0.5s;
+}
+nav a:hover{
+    color: rgba(226, 123, 58, 1);
+}
+nav div:nth-child(3){
+    display: flex;
+    gap: 40px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+main div:nth-child(1){
+    width: 613px;
+    height: 338px;
+    position: relative;
+    top: 218px;
+    left: 180px;
+    border-radius: 24px;
+    border: 1px;
+}
+main h1{
+    font-family: Poppins;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 120px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+.btn {
+    width: 123px;
+    height: 48px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 24px;
+    line-height: 24px;
+    border: none;
+    background: rgba(226, 123, 58, 1);
+    cursor: pointer;
+    color: white;
+    margin-left: 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover{
+   background-color: white; 
+   color: rgba(226, 123, 58, 1) ;
+}
+.bton{
+    width: 123px;
+    height: 48px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 24px;
+    color: rgba(226, 123, 58, 1);
+    background-color: 1px solid rgba(226, 123, 58, 1);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    margin-left: 15px;
+
+}
+.bton:hover{
+    background: rgba(226, 123, 58, 1);
+    color: white;
+}
+main div:nth-child(2){
+    width: 916px;
+    height: 611px;
+    position: relative;
+    top: 82px;
+    left: -65px;
+    z-index: -2;
+}
+.foods{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 275px;
+    position: relative;
+    top: 185px;
+    left: 185px;
+
+}
+.foods img{
+    position: relative;
+    left: 135px;
+    bottom: 65px;
+
+}
+.foods div{
+    width: 360px;
+    height: 255px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 40px 25px 18px;
+}
+.foods div:nth-child(2){
+    background: rgba(255, 255, 255, 1);
+    width: 360px;
+    height: 241px;
+    border-radius: 8px;
+    border: 1px;
+}
+.foods h5{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37.5px;
+    text-align: center;
+    color: rgba(23, 12, 4, 1);
+}
+.foods p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(23, 12, 4, 1);
+    opacity: 60%;
+}
+.foods button{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(226, 123, 58, 1);
+    border: none;
+    position: relative;
+    left: 120px;
+    background:none;
+    cursor: pointer;
+    top: 20px;
+}
+.product{
+    width: 1140px;
+    height: 1176px;
+    top: 250px;
+    position: relative;
+    border: 1px;
+    left: 182px;
+
+}
+.text{
+    width: 505px;
+    height: 125px;
+    color: rgba(23, 12, 4, 1);
+    margin: 0 auto;
+}
+.text h2{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32.25px;
+    font-weight: 500;
+    line-height: 48.38px;
+    color: rgba(23, 12, 4, 1);
+    margin-bottom: 15px;
+}
+.text p{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(23, 12, 4, 1);
+    margin-bottom: 15px;
+    opacity: 60%;
+}
+.prod_img{
+    display: flex;
+    gap: 30px;
+}
+.prod-bg{
+    background-image: url(./img-bg.png);
+    width: 555px;
+    height: 420px;
+
+}
+.prod-bg img{
+    margin:71px 91px;
+    background-color: transparent;
+}
+.prod_text{
+    display: flex ;
+    justify-content: space-around;
+}
+.prod_text h5{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: center;
+    margin: 25px auto 9px;    
+}
+.prod_text button{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(226, 123, 58, 1);
+    border: none;
+    background:none;
+    cursor: pointer;
+    margin-left: 95px;
+}
+.prod__bg{
+    background-image: url(./img-bg.png);
+    width: 360px;
+    height: 273px;
+    margin-top: 65px;
+}
+.prod__bg img{
+    width: 195px;
+    height: 177px;
+    margin: 48px 82px;
+}
+.prod__text{
+    display: flex ;
+    justify-content: space-around; 
+}
+.prod__text h6{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin: 13px auto 17px;
+}
+.prod__text button{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: rgba(226, 123, 58, 1);
+    border: none;
+    background:none;
+    cursor: pointer;
+    margin-left: 65px;
+}
+.product_btn{
+    width: 185px;
+    height: 48px;
+    border-radius: 4px;
+    color: #E27B3A;
+    border: 1px solid #E27B3A;
+    background: none;
+    margin-top: 46px ;
+    cursor: pointer;
+    margin-left: 45%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin-top: 133px;
+    padding: 134px;
+}
+.card_text span{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #E27B3A;    
+}
+.card_text h5{
+    font-family: Poppins;
+    font-size: 32.25px;
+    font-weight: 400;
+    line-height: 45.15px;
+    text-align: left;
+}
+.card_text p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #170C04;
+    margin: 18px auto 40px;
+    opacity: 60%;
+}
+.card_btn{
+    width: 189px;
+height: 48px;
+border-radius: 24px;
+background: #E27B3A;
+color: #fff;
+border: none;
+cursor: pointer;
+transition: background-color 0.5s, color 0.5s;
+}
+.card_btn:hover{
+   background-color: white; 
+   color: rgba(226, 123, 58, 1) ;
+}
+.d_work{
+    width: 1140px;
+height: 708px;
+margin: 0 auto;
+
+}
+.d_work h2{
+    font-family: Poppins;
+font-size: 32.25px;
+font-weight: 500;
+line-height: 45.15px;
+text-align: center;
+margin-bottom: 55px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+}
+.dogs{
+    padding: 10px;
+}
+.dogs h5{
+margin: 65px auto 27px;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+}
+.dogs p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #170C04;
+opacity: 60%;
+}
+.dogs button{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(226, 123, 58, 1);
+    border: none;
+    background:none;
+    cursor: pointer;
+    margin-left: 125px;
+    margin-top: 15px;
+
+}
+.div_bt{
+    margin-left: 40%;
+    margin-top: 58px;
+}
